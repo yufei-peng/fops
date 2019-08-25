@@ -26,7 +26,7 @@ var linecountCmd = &cobra.Command{
 	Short: "Print line count of file",
 	RunE: func(cmd *cobra.Command, args []string) error {
 
-		//check if the argument of file flag is legal: not a directory, exist, not a binary file.
+		//check if the argument of file flag is legal: not a file, exist, not a binary file.
 		fileinfo, err := os.Stat(filename)
 		if err != nil {
 			fmt.Printf("error:%s\n", strings.Split(err.Error(), ":")[1])
