@@ -1,21 +1,20 @@
+[![Build Status](https://travis-ci.com/yufei-peng/fops.svg?branch=master)](https://travis-ci.com/yufei-peng/fops)
+
 # fops
 A command-line application `fops` written in Golang
 
-[![Build Status](https://travis-ci.com/yufei-peng/fops.svg?branch=master)](https://travis-ci.com/yufei-peng/fops)
-
-
 
 ## Table of Contents
-- Overview (#overview)
-  * 3rd-party libraries used in this application
-_ Installing (#installing)
-- Getting Started (#getting-started)
-  * File lines' counting
-  * File's checksum
-  * Version checking
-  * Help
-- Features to be implemented (#features-to-be-implemented)
-- Known issues (#known-issues)
+- [Overview] (#overview)
+  * [3rd-party libraries used in this application] (#3rd-party-libraries-used-in-this-application)
+_ [Installing] (#installing)
+- [Getting Started] (#getting-started)
+  * [File lines' counting] (#file-lines'-counting)
+  * [File's checksum] (#file's-checksum)
+  * [Version checking] (#version-checking)
+  * [Help] (#help)
+- [Features to be implemented] (#features-to-be-implemented)
+- [Known issues] (#known-issues)
 
 ## Overview
 Fops is a command-line application for file operations.
@@ -65,6 +64,5 @@ fops checksum -h
 
 ## Features to be implemented
 - Tests of the application
-- Integrate with CI tool for automatic build
 
 ## Known issues
