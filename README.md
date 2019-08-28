@@ -5,16 +5,16 @@ A command-line application `fops` written in Golang
 
 
 ## Table of Contents
-- [Overview] (#overview)
-  * [3rd-party libraries used in this application] (#3rd-party-libraries-used-in-this-application)
-_ [Installing] (#installing)
-- [Getting Started] (#getting-started)
-  * [File lines' counting] (#file-lines'-counting)
-  * [File's checksum] (#file's-checksum)
-  * [Version checking] (#version-checking)
-  * [Help] (#help)
-- [Features to be implemented] (#features-to-be-implemented)
-- [Known issues] (#known-issues)
+- [Overview](#overview)
+  * [3rd-party libraries used in this application](#3rd-party-libraries-used-in-this-application)
+- [Installing](#installing)
+- [Getting Started](#getting-started)
+  * [File lines' counting](#file-lines'-counting)
+  * [File's checksum](#file's-checksum)
+  * [Version checking](#version-checking)
+  * [Help](#help)
+- [Features to be implemented](#features-to-be-implemented)
+- [Known issues](#known-issues)
 
 ## Overview
 Fops is a command-line application for file operations.
