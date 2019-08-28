@@ -6,10 +6,12 @@ env:
 go:
   - 1.12.x
 
+git:
+  depth: 1
+
 sudo: false
 
-install: true
+install: go get -t -v ./...
 
 script:
   - go test -v ./...
-  - go build
